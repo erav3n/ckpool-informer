@@ -1,0 +1,21 @@
+// .vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug all pytest tests",
+      "type": "python",
+      "request": "launch",
+
+      // 👉 this line tells VS Code to run the debugger with the same
+      //    interpreter you picked in the status bar / settings.
+      "python": "${command:python.interpreterPath}",
+
+      "module": "pytest",
+      "args": ["-s", "-q", "tests"],
+      "justMyCode": false,
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"   // optional – shows the venv prompt
+    }
+  ]
+}

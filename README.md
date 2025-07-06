@@ -22,16 +22,19 @@
  cd ckpool‑informer
 
 # 2. Create & activate a virtual environment (Python ≥ 3.10)
- python -m venv .venv
+ python3 -m venv .venv
  source .venv/bin/activate          # Windows: .venv\Scripts\activate
 
 # 3. Install dependencies
  pip install --upgrade pip
  pip install "python-telegram-bot[asyncio]==21.*" aiohttp python-dotenv
+ pip install -U pytest ; pip show pytes
+
 
 # 4. Export required environment variables
  export BOT_TOKEN="123456:ABCDEF…"            # your Telegram bot API token
  # Optional overrides:
+
  # export MEMPOOL_API_BASE="https://mempool.space"
  # export CHECK_INTERVAL=60       # polling interval in seconds
  # export MAX_PARALLEL_FETCH=5    # concurrent API calls

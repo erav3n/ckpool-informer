@@ -1,0 +1,6 @@
+// .vscode/settings.json
+{
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestArgs": ["tests"],
+  "python.testing.cwd": "${workspaceFolder}"
+}
