@@ -197,7 +197,7 @@ def is_ckpool(detail: Dict[str, Any]) -> bool:
         return True
     name = (pool.get("name") or "").lower()
     slug = (pool.get("slug") or "").lower()
-    return any(sub in name for sub in ("ckpool", "solo ck", "ck")) or "ck" in slug
+    return any(sub in name for sub in ("ckpool", "solo ck", "solock")) or "solock" in slug
 
 
 async def announce_block(app: Application, detail: Dict[str, Any]) -> None:
