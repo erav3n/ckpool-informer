@@ -1,0 +1,61 @@
+{
+  "id": "00000000000000000001f4a9a2444a36b37c21499d70d0a162aded570bfc729a",
+  "height": 904338,
+  "version": 821911552,
+  "timestamp": 1751831352,
+  "tx_count": 776,
+  "size": 325533,
+  "weight": 761700,
+  "merkle_root": "dd49c5e43d9c5294b6c6db70439c8529c2b1dca115fc48152440a08e9eb8ff47",
+  "previousblockhash": "0000000000000000000155c211edd02bc20beab06e78177c1b633be709108259",
+  "mediantime": 1751828034,
+  "nonce": 2737374284,
+  "bits": 386033686,
+  "difficulty": 116958512019762.11,
+  "extras": {
+    "reward": 313233558,
+    "coinbaseRaw": "0392cc0d0438d36a6800300252ad544300000a4c75636b7920706f6f6c",
+    "orphans": [],
+    "medianFee": 2,
+    "feeRange": [
+      1,
+      1,
+      1,
+      2,
+      3,
+      5,
+      1005
+    ],
+    "totalFees": 733558,
+    "avgFee": 946,
+    "avgFeeRate": 3,
+    "utxoSetChange": 566,
+    "avgTxSize": 419.14,
+    "totalInputs": 1376,
+    "totalOutputs": 1942,
+    "totalOutputAmt": 37914361048,
+    "segwitTotalTxs": 715,
+    "segwitTotalSize": 310392,
+    "segwitTotalWeight": 701244,
+    "feePercentiles": null,
+    "virtualSize": 190425,
+    "coinbaseAddress": "1DnPPFQPrfyNTiHPXhDFyqNnW9T62GEhB1",
+    "coinbaseAddresses": [
+      "1DnPPFQPrfyNTiHPXhDFyqNnW9T62GEhB1"
+    ],
+    "coinbaseSignature": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 8c36e99e053d0867dd6fa855ac4bb660221c4296 OP_EQUALVERIFY OP_CHECKSIG",
+    "coinbaseSignatureAscii": "\u0003\u0092\u00cc\r\u00048\u00d3jh\u00000\u0002R\u00adTC\u0000\u0000\nLucky pool",
+    "header": "0060fd3059821009e73b631b7c17786eb0ea0bc22bd0ed11c2550100000000000000000047ffb89e8ea040241548fc15a1dcb1c229859c4370dbc6b694529c3de4c549dd38d36a68166802174c0429a3",
+    "utxoSetSize": null,
+    "totalInputAmt": null,
+    "pool": {
+      "id": 158,
+      "name": "luckyPool",
+      "slug": "luckypool",
+      "minerNames": null
+    },
+    "matchRate": null,
+    "expectedFees": null,
+    "expectedWeight": null
+  }
+}
